@@ -1,0 +1,12 @@
+# Dependency
+node_modules/
+
+css/styles.css.map
+
+#logs
+logs
+*.log
+
+.npm
+
+.vscode

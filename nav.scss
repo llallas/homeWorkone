@@ -1,0 +1,28 @@
+nav {
+    height: 80px;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 15px;
+
+    .logo{
+        text-align: left;
+        color: white;
+        font-size: 30px;
+    }
+    .links{
+        width: 1000px;
+        padding-left: 500px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        }
+    
+}

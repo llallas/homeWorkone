@@ -1,0 +1,25 @@
+.section{
+    width: 100%;
+    height: 800px;
+    // background-color: blue;
+    .wrapper{
+        width: 800px;
+        height: 250px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+        .img {
+            height: 200px;
+            width: 800px;
+            overflow: hidden;
+            object-fit: contain;
+            
+            
+            
+        }
+    }
+    .contentdiv{
+        padding-left: 65px;
+    }  
+}

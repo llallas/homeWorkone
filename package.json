@@ -1,0 +1,16 @@
+{
+  "name": "homeworkone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile":"sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}

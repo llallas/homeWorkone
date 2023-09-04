@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  background-color: darkred;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+nav .links {
+  width: 300px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 800px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero .img {
+  height: 100%;
+  width: 50%;
+  background-image: url(../images/AdobeStock_315070495.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .text {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+  background-color: lightgray;
+}
+
+.content {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.content .about {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content .about .left {
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/AdobeStock_135709080.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .about .right {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+.content .about .right .word-holder {
+  width: 100%;
+  padding: 20px;
+  margin-top: 80px;
+}
+.content .about .right .word-holder p {
+  font-size: 20px;
+  font-family: arial;
+}
+
+.section {
+  width: 100%;
+  height: 800px;
+}
+.section .wrapper {
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.section .wrapper .img {
+  height: 200px;
+  width: 800px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.section .contentdiv {
+  padding-left: 65px;
+}
+
+.section2 {
+  width: 100%;
+  height: 800px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section2 .boxes {
+  height: 500px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/resumeExa.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .boxes2 {
+  height: 500px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/AdobeStock_318962839.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .boxes3 {
+  height: 500px;
+  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/schol.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .words {
+  width: 99%;
+  height: 90%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+.section2 .words h1 {
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+footer {
+  height: 30px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=styles.css.map */
